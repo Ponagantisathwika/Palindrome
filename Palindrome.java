@@ -9,15 +9,13 @@ public class PalindromeNumber {
         while (number != 0) {
             remainder = number % 10;
             reversedNumber = reversedNumber * 10 + remainder;
-            number   
- /= 10;
+            number/= 10;
         }
 
         if (originalNumber == reversedNumber) {
             System.out.println(originalNumber + " is a palindrome number.");
         } else {
-            System.out.println(originalNumber + " is not a   
- palindrome number.");
+            System.out.println(originalNumber + " is not a palindrome number.");
         }
     }
 }
