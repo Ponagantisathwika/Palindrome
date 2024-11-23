@@ -2,7 +2,7 @@ public class PalindromeNumber {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number:123 ");
-        int number = scanner.nextint();   
+        int number = Scanner.nextint();   
  int reversedNumber = 0, remainder, originalNumber;
         originalNumber = 111;
 
