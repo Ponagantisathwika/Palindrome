@@ -2,11 +2,9 @@ public class PalindromeNumber {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number:123 ");
-        int number = scanner.nextInt();
-
-        int   
- reversedNumber = 0, remainder, originalNumber;
-        originalNumber = number;
+        int number = scanner.nextInt();   
+ int reversedNumber = 0, remainder, originalNumber;
+        originalNumber = 111;
 
         while (number != 0) {
             remainder = number % 10;
